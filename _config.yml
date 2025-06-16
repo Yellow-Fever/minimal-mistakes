@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "A geneticist learns to prog"
+title                    : "Journeyman Geneticist"
 title_separator          : "-"
-subtitle                 : "And it's very cool." # site tagline that appears below site title in masthead
+subtitle                 : "Use your powers for good." # site tagline that appears below site title in masthead
 name                     : "Andrew Beck"
-description              : "A website about me."
+description              : "A website about me and the stuff I like."
 url                      : "https://andrewbeck.io " # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,13 +115,13 @@ analytics:
 author:
   name             : "Andrew Beck"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "I'm a virologist and informatician, using my powers for good."
+  location         : "Atlanta, GA"
   email            : andy@andrewbeck.io
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:andy@andrewbeck.io"
+  #  - label: "Email"
+  #    icon: "fas fa-fw fa-envelope-square"
+  #    url: "mailto:andy@andrewbeck.io"
     - label: "Bluesky"
       icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/andrewbeck.io"
@@ -130,18 +130,21 @@ author:
       url: "https://github.com/Yellow-Fever"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "www.linkedin.com/in/andrewbeckvirologist"
+      url: "https://linkedin.com/in/andrewbeckvirologist"
     - label: "ORCID"
       icon: "fa-brands fa-orcid"
       url: "https://orcid.org/0000-0001-5307-5565"
+ #   - label: "Yelp"
+ #     icon: "fa-brands fa-yelp"
+ #     url: "https://www.yelp.com/user_details?userid=XBHKTAMbdATh3N0ujnbbeg"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:andy@andrewbeck.io"
+  #  - label: "Email"
+  #    icon: "fas fa-fw fa-envelope-square"
+  #    url: "mailto:andy@andrewbeck.io"
     - label: "Bluesky"
       icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/andrewbeck.io"
@@ -154,6 +157,9 @@ footer:
     - label: "ORCID"
       icon: "fa-brands fa-orcid"
       url: "https://orcid.org/0000-0001-5307-5565"
+    - label: "Yelp"
+      icon: "fa-brands fa-yelp"
+      url: "https://www.yelp.com/user_details?userid=XBHKTAMbdATh3N0ujnbbeg"
 
 
 # Reading Files
@@ -227,7 +233,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -238,7 +244,7 @@ pagination:
   # enabled: true
   debug: false
   collection: 'posts'
-  per_page: 10
+  per_page: 3
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
