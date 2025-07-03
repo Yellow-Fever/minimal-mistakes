@@ -2,13 +2,13 @@
 main:
   - title: "Home"
     url: /
-  - title: "About me"
+  - title: "About Me"
     url: /about/
-  - title: "Links"
+  - title: "Resume"
+    url: /resume/
+  - title: "Fun Links"
     url: /links/
-  - title: "CV"
-    url: /CV/
   - title: "Tags"
     url: /tags/
-  - title: "Sitemap"
-    url: /sitemap/
+ # - title: "Sitemap"
+ #   url: /sitemap/

@@ -7,9 +7,24 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    {% if page.include_scripts %}
+      {% for include_script in page.include_scripts %}
+        <script type="text/javascript" src='{{ include_script }}' defer></script>
+      {% endfor %}
+    {% endif %}
+    
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
+
+
+<style>
+  ol.bibliography li {
+    list-style: none;
+  }
+</style>
+  
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
