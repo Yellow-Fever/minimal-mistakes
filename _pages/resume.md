@@ -8,23 +8,31 @@ toc: true
 toc_sticky: true
 series: "Creating this blog"
 permalink: /resume/
-include_scripts: ["https://cdn.jsdelivr.net/npm/d3@7/+esm",
-"/assets/js/viz/example_d3.js"]
+include_scripts: ["https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js",
+"/assets/js/viz/resume_bubble_map.js", "/assets/js/viz/example_d3.js"]
 ---
+
+<script type="text/javascript">
+  const dataset = {{ site.data.geography.ne_10m_admin_0_countries_SIMPLE | jsonify }};
+</script>
+
+
+
 #### Just give me a PDF
 
 Alright!
 #### Where have I lived and worked?
-
-<canvas id="map_bubbles" width="400" height="400">
-</canvas>
+test image/canvas
+<canvas id="test_image" width="400" height="400"></canvas>
+map script/canvas
+<canvas id="bubble_map" width="400" height="400"></canvas>
 
 Click the map for some different views. I've lived in a few places, and jetted around a little for conference appearances.
 
 #### Three major interests?
 
-* molecular epidemiology 
 * viral genomics 
+* molecular epidemiology 
 * vaccine-preventable disease
 
 #### Why is my Git handle "_Yellow-Fever_"?

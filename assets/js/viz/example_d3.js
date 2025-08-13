@@ -1,14 +1,25 @@
 
 
+
 // select the canvas element created in the html
-var canvas = document.getElementById('map_bubbles');
+var canvas = document.getElementById('test_image');
 
 // Get the 'context'
 var ctx = canvas.getContext('2d');
 
-// Build a rectangle
-ctx.fillStyle = '#69b3a2'; // rectangle color
-ctx.fillRect(20, 20, 50, 50); // 4 arguments for the rect features: x, y, width and height
+// Set the color:
+ctx.fillStyle = '#D8D8D8';
 
-ctx.fillRect(150, 200, 50, 50); // 4 arguments for the rect features: x, y, width and height
-ctx.fillRect(300, 300, 100, 50); // 4 arguments for the rect features: x, y, width and height
+// Initialize path
+ctx.beginPath();
+
+// Go to the starting coordinate
+ctx.moveTo(100, 50);
+
+// Draw 2 segments
+ctx.lineTo(300, 50);
+ctx.lineTo(200, 370);
+
+// Fill the shape
+ctx.fill();
+ctx.stroke();
