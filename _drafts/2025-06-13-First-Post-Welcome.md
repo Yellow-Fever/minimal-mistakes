@@ -16,7 +16,7 @@ with andy as code:
     add(pseudocode)
 ```
 
-I appreciat the attention from readers; there are a few series planned to cover a number of topics, including LLMs, some informatics tools, some other cool stuff.
+I appreciate the attention from readers; there are a few series planned to cover a number of topics, including LLMs, some informatics tools, some other cool stuff.
 
 Added a nice bibliography too:
 This prints out the entire bibliography.
